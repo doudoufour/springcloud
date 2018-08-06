@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1532431990851_0" label="tmx-parent-pom" name="tmx-parent-pom">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/orgservice-new" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/configurationserver" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/organization-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/specialroutesservice" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/licensing-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/tmx-parent-pom" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eurekasvr" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/zuulsvr" type="4"/>
+</workingSet>
+</workingSetManager>

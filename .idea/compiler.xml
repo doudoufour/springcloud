@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ConfigServer" />
+        <module name="EurekaServer" />
+        <module name="Fegin" />
+        <module name="Hystrix" />
+        <module name="organizationDemo" />
+        <module name="ServiceB" />
+        <module name="userDemo" />
+        <module name="zuulservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ServiceA (1)" target="1.8" />
+      <module name="ServiceAbackup" target="1.6" />
+      <module name="userDemo (1)" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

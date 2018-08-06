@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: zuul-service
+
+server:
+  port: 9000
+
+
+zuul:
+  routes:
+    blog:
+        path: /ymq/**
+        url: http://www.baidu.com
+    api-a:
+      path: /api-a/**
+      serviceId: sa
+    api-b:
+      path: /api-b/**
+      serviceId: itcasst-microservice-config-server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8750/eureka/
+

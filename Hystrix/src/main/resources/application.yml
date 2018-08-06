@@ -1,0 +1,13 @@
+server:
+  port: 8879
+eureka:
+    client:
+      serviceUrl:
+        #注册中心的地址
+        defaultZone: http://localhost:8750/eureka/
+
+
+spring:
+  application:
+    #当前应用名称
+    name: hystrix-hi

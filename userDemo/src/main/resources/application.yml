@@ -1,0 +1,3 @@
+management:
+  security:
+    enabled: false #是否开启actuator安全认证
